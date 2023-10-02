@@ -1,4 +1,4 @@
-
+let errorHander = require("./errorHandler");
 
 // const promise = new Promise((resolve, reject)=>{
 //     setTimeout(()=>{
@@ -44,7 +44,6 @@
 // // console.log("VAriable Output" + myName);
 
 // Error Handleing 
-
 
 
 
@@ -97,3 +96,5 @@ function errorFix(error){
     let {name, message, stack} = error;
     console.log(name)
 }
+
+console.log(errorHander)
